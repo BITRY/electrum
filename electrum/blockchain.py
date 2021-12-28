@@ -57,7 +57,7 @@ def deserialize_pure_header(s: bytes, height: int) -> dict:
     h['merkle_root'] = hash_encode(s[36:68])
     h['timestamp'] = hex_to_int(s[68:72])
     h['bits'] = hex_to_int(s[72:76])
-    h['nonce'] = hex_to_int(s[76:80])
+    h['nonce'] = hex_to_int(s[76:144])
     h['block_height'] = height
     return h
 
