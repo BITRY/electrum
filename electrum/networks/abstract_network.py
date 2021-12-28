@@ -7,7 +7,7 @@ class AbstractNet(object):
     CHECKPOINTS = []
     GENESIS = None
     HEADER_SIZE = 144  # bytes
-    MAX_TARGET = 0x00000000FFFF0000000000000000000000000000000000000000000000000000
+    MAX_TARGET = 0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     MAX_INCOMING_MSG_SIZE = 1_000_000  # in bytes
 
 
