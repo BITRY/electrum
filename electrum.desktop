@@ -15,7 +15,7 @@ StartupWMClass=electrum
 Terminal=false
 Type=Application
 MimeType=x-scheme-handler/bitcoin;
-Actions=Bitcoin-Testnet;Namecoin;Crowncoin;
+Actions=Bitcoin-Testnet;Namecoin;Crowncoin;Pruxcoin;
 
 [Desktop Action Bitcoin-Testnet]
 Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --network Bitcoin-Testnet %u"
