@@ -59,7 +59,7 @@ class PruxcoinMainnet(AbstractNet, AuxPowMixin):
     AUXPOW_START_HEIGHT = 15615201
     BLOCK_VERSION_AUXPOW_BIT = 0x100
 
-BLOCK_EXPLORERS = {}
+    BLOCK_EXPLORERS = {}
     # The default Bitcoin frame size limit of 1 MB doesn't work for AuxPoW-based
     # chains, because those chains' block headers have extra AuxPoW data.  A limit
     # of 10 MB works fine for Namecoin as of block height 418744 (5 MB fails after
