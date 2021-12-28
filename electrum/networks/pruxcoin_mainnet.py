@@ -10,7 +10,7 @@ class PruxcoinMainnet(AbstractNet, AuxPowMixin):
     NAME_LOWER = 'pruxcoin'
     SHORT_CODE = 'PRUX'
     TESTNET = False
-    WIF_PREFIX = 0xB7
+    WIF_PREFIX = 183
     ADDRTYPE_P2PKH = 55
     ADDRTYPE_P2SH = 117
     SEGWIT_HRP = "pr"
@@ -37,7 +37,7 @@ class PruxcoinMainnet(AbstractNet, AuxPowMixin):
         'p2wsh':       0x02aa7ed3,  # Zpub
     }
     XPUB_HEADERS_INV = inv_dict(XPUB_HEADERS)
-    BIP44_COIN_TYPE = 7
+    BIP44_COIN_TYPE = 0
     LN_REALM_BYTE = 0
     LN_DNS_SEEDS = []
     OPEN_ALIAS_PREFIX = 'prux'
