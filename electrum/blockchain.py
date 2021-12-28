@@ -353,7 +353,7 @@ class Blockchain(Logger):
 
             header, start_position = deserialize_full_header(data, index*2016 + i, expect_trailing_data=True, start_position=start_position)
             self.verify_header(header, prev_hash, expected_header_hash)
-            self.save_header(header)
+
             prev_hash = hash_header(header)
             i = i + 1
         return bytes(stripped)
