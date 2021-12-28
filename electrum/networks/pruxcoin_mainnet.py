@@ -46,9 +46,9 @@ class PruxcoinMainnet(AbstractNet, AuxPowMixin):
     APPLICATION_PAYMENT_REQUEST_TYPE = 'application/pruxcoin-paymentrequest'
     APPLICATION_PAYMENT_TYPE = 'application/pruxcoin-payment'
     APPLICATION_PAYMENT_ACK_TYPE = 'application/pruxcoin-paymentack'
-    COINBASE_MATURITY = 100
+    COINBASE_MATURITY = 259
     COIN = 100000000
-    TOTAL_COIN_SUPPLY_LIMIT = 21000000
+    TOTAL_COIN_SUPPLY_LIMIT = 141375
     SIGNED_MESSAGE_PREFIX = b"\x18Pruxcoin Signed Message:\n"
 
     BASE_UNITS = {'PRUX': 8, 'mPRUX': 5, 'uPRUX': 2, 'sat': 0}
