@@ -1,0 +1,13 @@
+{
+    "txserver.live": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4"
+    },
+    "electrumx.live": {
+        "pruning": "-",
+        "s": "50012",
+        "version": "1.4"
+    }
+} 
