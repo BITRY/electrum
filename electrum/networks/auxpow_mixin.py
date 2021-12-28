@@ -1,6 +1,6 @@
 class AuxPowMixin(object):
     AUXPOW_START_HEIGHT = 0
-    AUXPOW_CHAIN_ID = 0x0001
+    AUXPOW_CHAIN_ID = 0x03BF
     BLOCK_VERSION_AUXPOW_BIT = 0
 
     @classmethod
