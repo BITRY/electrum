@@ -43,9 +43,9 @@ class PruxcoinMainnet(AbstractNet, AuxPowMixin):
     OPEN_ALIAS_PREFIX = 'prux'
     PAYMENT_URI_SCHEME = 'pruxcoin'
     PAYMENT_REQUEST_PKI_TYPE = "dnssec+prux"
-    APPLICATION_PAYMENT_REQUEST_TYPE = 'application/pruxcoin-paymentrequest'
-    APPLICATION_PAYMENT_TYPE = 'application/pruxcoin-payment'
-    APPLICATION_PAYMENT_ACK_TYPE = 'application/pruxcoin-paymentack'
+    APPLICATION_PAYMENT_REQUEST_TYPE = 'application/prux-paymentrequest'
+    APPLICATION_PAYMENT_TYPE = 'application/prux-payment'
+    APPLICATION_PAYMENT_ACK_TYPE = 'application/prux-paymentack'
     COINBASE_MATURITY = 259
     COIN = 100000000
     TOTAL_COIN_SUPPLY_LIMIT = 141375
