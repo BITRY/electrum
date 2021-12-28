@@ -339,6 +339,7 @@ class Blockchain(Logger):
         start_position = 0
         start_height = index * 2016
         prev_hash = self.get_hash(start_height - 1)
+        target = self.get_target(index-1)    
         i = 0
         while start_position < len(data):
             height = start_height + i
