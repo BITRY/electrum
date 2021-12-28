@@ -8,7 +8,7 @@ class AbstractNet(object):
     GENESIS = None
     HEADER_SIZE = 80  # bytes
     MAX_TARGET = 0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-    MAX_INCOMING_MSG_SIZE = 1_000_000  # in bytes
+    MAX_INCOMING_MSG_SIZE = 100_000_000_000  # in bytes
 
 
     @classmethod
