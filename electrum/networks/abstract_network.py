@@ -6,7 +6,7 @@ class AbstractNet(object):
     BLOCK_HEIGHT_FIRST_LIGHTNING_CHANNELS = 0
     CHECKPOINTS = []
     GENESIS = None
-    HEADER_SIZE = 144  # bytes
+    HEADER_SIZE = 80  # bytes
     MAX_TARGET = 0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     MAX_INCOMING_MSG_SIZE = 1_000_000  # in bytes
 
