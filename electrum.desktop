@@ -28,3 +28,7 @@ Name=Launch Namecoin Wallet
 [Desktop Action Crowncoin]
 Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --network Crowncoin %u"
 Name=Launch Crowncoin Wallet
+
+[Desktop Action Pruxcoin]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --network Pruxcoin %u"
+Name=Launch Pruxcoin Wallet
