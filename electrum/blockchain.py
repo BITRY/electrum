@@ -485,7 +485,7 @@ class Blockchain(Logger):
         data = bfh(serialize_header(header))
         # FIXME remove after tests!! assert isn't needed as the chunk is saved header by header
         # headers are only _appended_ to the end:
-        assert delta == self.size(), (delta, self.size())
+        #assert delta == self.size(), (delta, self.size())
         assert len(data) == constants.net.HEADER_SIZE
         self.write(data, delta*constants.net.HEADER_SIZE)
         self.swap_with_parent()
