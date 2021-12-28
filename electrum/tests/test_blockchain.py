@@ -346,7 +346,9 @@ class TestVerifyHeader(ElectrumTestCase):
 
     def setUp(self):
         super().setUp()
-        self.header = deserialize_header(bfh(self.valid_header), 100)
+        # Height must be above the checkpoint, because the AuxPoW branch
+        # doesn't verify PoW below the checkpoint.
+        self.header = deserialize_pure_header(bfh(self.valid_header), constants.net.max_checkpoint() + 100)
         
     def test_valid_header(self):
         Blockchain.verify_header(self.header, self.prev_hash, self.target)
