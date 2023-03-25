@@ -48,6 +48,7 @@ Supported Networks
 .. Crown
 .. Donu
 .. Namecoin
+.. Pruxcoin
 
 Getting started
 ===============
