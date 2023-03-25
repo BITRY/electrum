@@ -1,3 +1,22 @@
+Electrum for PRUX
+
+This is a working Electrum Client for the PRUX Network
+
+
+Start the Electrum with follow for Pruxcoin 
+
+
+    ./run_electrum --network Pruxcoin
+    
+We have to running server to connect with.
+
+    electrumx.live:50012
+    txserver.live:50002 
+
+Show on the Balance exactly this to the right of the last transaction is always correct.
+
+
+
 Electrum - Lightweight CryptoCurrency client
 =====================================
 
@@ -84,7 +103,7 @@ Electrum from its root directory without installing it on your
 system; all the pure python dependencies are included in the 'packages'
 directory. To run Electrum from its root directory, just do::
 
-    ./run_electrum
+    ./run_electrum --network Pruxcoin
 
 You can also install Electrum on your system, by running this command::
 
